@@ -1,0 +1,29 @@
+name: Compilar LaTeX a PDF
+
+on:
+  push:
+    paths:
+      - '_assets/tex/**'
+  workflow_dispatch:
+
+jobs:
+  compile-tex:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v3
+
+      - name: Instalar TeX Live
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y texlive-latex-base texlive-fonts-recommended texlive-fonts-extra
+
+      - name: Compilar archivos LaTeX
+        run: |
+          for texfile in _assets/tex/*.tex; do
+              echo "Compilando $texfile..."
+              pdflatex -interaction=nonstopmode -output-directory=_assets/pdfs "$texfile"
+          done
+
+      - name: Listar PDFs generados
+        run: ls -l _assets/pdfs/

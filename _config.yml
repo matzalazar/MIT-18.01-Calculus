@@ -1,0 +1,75 @@
+title: "MIT 18.01"
+description: "Notas sobre el curso de cálculo del MIT"
+theme: "just-the-docs"
+
+# URL del sitio (ajustar si cambia el repo o el dominio)
+url: "https://matzalazar.github.io/MIT-18.01-Calculus"
+
+# Enlace a GitHub en la barra superior
+aux_links:
+  "GitHub": "https://github.com/matzalazar/MIT-18.01-Calculus"
+  "Ver en MIT": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/"
+
+# Color del tema (oscuro)
+color_scheme: dark
+
+# Orden de navegación principal
+nav_order: 1
+
+# Incluir MathJax para ecuaciones en LaTeX
+includes:
+  head: "_includes/mathjax.html"
+
+# Configuración de navegación
+nav:
+  - title: "Inicio"
+    url: /
+    nav_order: 1
+
+  - title: "Estructura"
+    url: /docs/estructura
+    nav_order: 2
+
+  - title: "Videos"
+    url: /docs/videos/
+    nav_order: 3
+    children:
+      - title: "Video 1"
+        url: /docs/videos/video_01
+
+  - title: "Bibliografía"
+    url: /docs/biblio/
+    nav_order: 4
+    children:
+      - title: "Mattuck, G1-G4"
+        url: /docs/biblio/mattuck_g1_g4
+      - title: "Simmons, Cap 2.1."
+        url: /docs/biblio/simmons_2_1
+      - title: "Simmons, Cap 2.2."
+        url: /docs/biblio/simmons_2_2
+      - title: "Simmons, Cap 2.3."
+        url: /docs/biblio/simmons_2_3
+
+# Configuración para servir archivos estáticos desde `_assets`
+include:
+  - _assets
+
+# Configuración de rutas personalizadas para archivos en `_assets`
+defaults:
+  - scope:
+      path: "_assets/images"
+    values:
+      image: true
+  - scope:
+      path: "_assets/pdfs"
+    values:
+      downloadable: true
+  - scope:
+      path: "_assets/tex"
+    values:
+      downloadable: true
+
+# Tabla de contenidos automática (TOC)
+toc:
+  min_level: 2
+  max_level: 3
