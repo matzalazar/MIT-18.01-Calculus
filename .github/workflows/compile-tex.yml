@@ -16,13 +16,18 @@ jobs:
       - name: Instalar TeX Live
         run: |
           sudo apt-get update
-          sudo apt-get install -y texlive-latex-base texlive-fonts-recommended texlive-fonts-extra
+          sudo apt-get install -y texlive texlive-latex-extra texlive-fonts-recommended texlive-science
+
+      - name: Crear directorio de salida
+        run: mkdir -p _assets/pdfs
 
       - name: Compilar archivos LaTeX
         run: |
           for texfile in _assets/tex/*.tex; do
               echo "Compilando $texfile..."
-              pdflatex -interaction=nonstopmode -output-directory=_assets/pdfs "$texfile"
+              cd _assets/tex
+              pdflatex -interaction=nonstopmode -output-directory=../pdfs "$(basename "$texfile")"
+              cd ../..
           done
 
       - name: Listar PDFs generados

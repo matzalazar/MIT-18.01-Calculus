@@ -18,7 +18,7 @@ search_enabled: true
 ### 1.3 Límites, continuidad, límites trigonométricos (Sesión 2)
 - **Simmons**: 2.5 (pp. 70-73, enfocarse en ejemplos, omitir la definición ε - δ).  
 - **Simmons**: 2.6 hasta p. 75 (aprender la definición (1) y la prueba de "diferenciable ⇒ continuo").  
-- **Jerison y Mattuck**: C.
+- **Mattuck**: C.
 
 ### 1.4 Derivadas de productos, cocientes, seno y coseno (Sesión 3)
 - **Simmons**: 3.1, 3.2, 3.4.
@@ -28,11 +28,11 @@ search_enabled: true
 
 ### 1.6 Diferenciación implícita e inversas (Sesión 5)
 - **Simmons**: 3.5.  
-- **Jerison y Mattuck**: G, sección 5.  
+- **Mattuck**: G, sección 5.  
 - **Simmons**: 9.5 (pp. 913-915).
 
 ### 1.7 Exponencial y logaritmo; Diferenciación logarítmica; Funciones hiperbólicas (Sesión 6)
-- **Jerison y Mattuck**: X.  
+- **Mattuck**: X.  
 - **Simmons**: 8.2 (referencia).  
 - **Simmons**: 8.3 hasta mitad de p. 267.  
 - **Simmons**: 8.4 hasta inicio de p. 271.
@@ -47,7 +47,7 @@ search_enabled: true
 ## 2. Aplicaciones de la Diferenciación
 
 ### 2.1 Aproximaciones lineales y cuadráticas (Sesión 9)
-- **Jerison y Mattuck**: A.
+- **Mattuck**: A.
 
 ### 2.2 Representación gráfica de funciones (Sesión 10)
 - **Simmons**: 4.1 y 4.2.
@@ -63,7 +63,7 @@ search_enabled: true
 
 ### 2.6 Teorema del valor medio e inecuaciones (Sesión 14)
 - **Simmons**: 2.6 hasta mitad de p. 77.  
-- **Jerison y Mattuck**: MVT.
+- **Mattuck**: MVT.
 
 ### 2.7 Diferenciales y antiderivadas (Sesión 15)
 - **Simmons**: 5.2 y 5.3.
@@ -85,8 +85,8 @@ search_enabled: true
 - **Simmons**: 6.6 y 6.7 hasta inicio de p. 215 (omitir demostración pp. 207-208).
 
 ### 3.3 Segundo Teorema Fundamental del Cálculo (Sesión 20)
-- **Jerison y Mattuck**: PI, p. 2 (ecuación (7) y ejemplo).  
-- **Jerison y Mattuck**: FT.
+- **Mattuck**: PI, p. 2 (ecuación (7) y ejemplo).  
+- **Mattuck**: FT.
 
 ### 3.4 Aplicaciones a logaritmos y geometría (Sesión 21)
 - **Simmons**: 7.1, 7.2 y 7.3.
@@ -96,7 +96,7 @@ search_enabled: true
 
 ### 3.6 Trabajo, valor promedio y probabilidad (Sesión 23)
 - **Simmons**: 7.7 hasta mitad de p. 247.  
-- **Jerison y Mattuck**: AV.
+- **Mattuck**: AV.
 
 ### 3.7 Integración numérica (Sesión 24)
 - **Simmons**: 10.9.
@@ -117,7 +117,7 @@ search_enabled: true
 
 ### 4.3 Fracciones parciales (Sesión 29)
 - **Simmons**: 10.6.  
-- **Jerison y Mattuck**: F.
+- **Mattuck**: F.
 
 ### 4.4 Integración por partes y fórmulas de reducción (Sesión 30)
 - **Simmons**: 10.7.
@@ -144,7 +144,7 @@ search_enabled: true
 
 ### 5.2 Integrales impropias (Sesión 35)
 - **Simmons**: 12.4.  
-- **Jerison y Mattuck**: INT.
+- **Mattuck**: INT.
 
 ### 5.3 Series infinitas y pruebas de convergencia (Sesión 36)
 - **Simmons**: pp. 439-442 (parte superior), pp. 451-453 (omitir demostración en ejemplo 3), y pp. 455-457 (parte superior).

@@ -22,7 +22,7 @@ MIT-18.01-Calculus/
 ├── Dockerfile              # Entorno de desarrollo aislado
 ├── Gemfile                 # Dependencias de Ruby/Jekyll
 ├── docs/                   # Documentación y notas
-│   ├── estructura.md       # Explicación de la estructura del repositorio
+│   ├── estructura.md       # Explicación del recorrido temático del curso
 │   ├── lecturas/           # Resúmenes y notas de lecturas
 │   ├── videos/             # Análisis de videos y conferencias
 │   └── biblio/             # Bibliografía y referencias

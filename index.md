@@ -7,7 +7,7 @@ nav_order: 1
 # Resumen del Curso MIT 18.01 - Cálculo I
 
 ## Requisitos Previos
-No hay cursos previos en MIT requeridos. Se necesita conocimiento de álgebra y trigonometría de nivel secundario.
+No hay cursos previos en MIT requeridos. Se necesitan conocimientos de álgebra y trigonometría de nivel secundario.
 
 ## Objetivos del Curso
 El objetivo del cálculo es relacionar cantidades diferenciales (a pequeña escala) con cantidades integrales (a gran escala), lo cual se logra mediante el **Teorema Fundamental del Cálculo**. 
