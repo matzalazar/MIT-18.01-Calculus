@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout del repositorio
         uses: actions/checkout@v3
+        with:
+          persist-credentials: false
 
       - name: Instalar TeX Live
         run: |
@@ -32,3 +34,11 @@ jobs:
 
       - name: Listar PDFs generados
         run: ls -l _assets/pdfs/
+
+      - name: Subir los PDFs generados al repositorio
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add _assets/pdfs/*.pdf
+          git commit -m "🚀 Auto-generación de PDFs desde LaTeX"
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/matzalazar/MIT-18.01-Calculus.git main
