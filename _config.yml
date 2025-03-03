@@ -1,6 +1,6 @@
 title: "MIT 18.01"
 description: "Notas sobre el curso de cálculo del MIT"
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
 
 # URL del sitio (ajustar si cambia el repo o el dominio)
 url: "https://matzalazar.github.io/MIT-18.01-Calculus"
